@@ -4,6 +4,11 @@ body {
   min-height: 100vh;
 }
 
+.min-height-100 {
+  min-height: 100vh;
+  max-height: 100%;
+}
+
 ul,
 li,
 a {
@@ -36,4 +41,13 @@ a {
 
 .dotted-border-bottom {
   border-bottom: 1px dotted #333;
+}
+
+.image-bg {
+  background: url("/images/copper-pin-chair.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 82.5%;
+  width: 100%;
+  overflow: hidden;
 }
