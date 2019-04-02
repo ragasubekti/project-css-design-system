@@ -3,6 +3,9 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   min-height: 100vh;
 }
+.bg-light {
+  background: #fff;
+}
 
 .min-height-100 {
   min-height: 100vh;
